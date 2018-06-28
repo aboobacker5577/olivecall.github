@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	padding:0px;
+	background:#fff;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+header	{
+		width:100%;
+		height:auto;
+		z-index:999;
+}
+
+.nav-padding	{
+	margin:0 50px;
+}
+
+.login	{
+		background:#ffba00;
+		color:#000;
+		padding:12px 20px;
+		margin:30px 10px;
+		transition:0.4s;
+		border-radius:5px;
+		border:solid #ff0 1px;
+		font-family: 'Fjalla One', sans-serif;
+		font-weight:100;
+		text-align:center;
+		font-size:18px;
+}
+.login:hover	{
+		text-decoration:none;
+		color:#fff;
+		background-color:#433616;
+		border:solid 1px #68582e;
+}
+
+h1	{
+		font-family: 'Fjalla One', sans-serif;
+		text-outline: 2px 2px #fff;
+}
+
+h2	{
+		font-family: 'Fjalla One', sans-serif;
+		color:#035c73;
+}
+
+h3	{
+		font-family: 'Fjalla One', sans-serif;
+		color:#fff;
+}
+
+
+h4	{
+		font-family: 'Fjalla One', sans-serif;
+		color:#fff;
+}
+
+
+.banner-margin	{
+		padding-top:0px;
+}
+
+.banner-img	{
+
+
+}
+
+.top-button-padding	{
+		margin-top:30px;
+}
+
+.news-details	{
+		font-size:16px;
+		color:#000;
+		background-color:#7fcb8c;
+		padding:13px 35px;
+		min-height:50px;
+}
+
+.country-flag	{
+		margin-top:30px;
+}
+
+.country-flag-2	{
+		margin-top:10px;
+}
+
+.get_apps	{
+		margin:15px 0;
+}
+
+
+.featuers-section	{
+		width:100%;
+		background:#d70006;
+		font-family: 'Source Sans Pro', sans-serif;
+		padding:25px 0;
+}
+
+.support-section	{
+	background:#346a1e;
+	padding:25px 0;
+}
+
+.text-1	{
+		font-size:15px;
+		line-height:30px;
+		font-family: 'Fjalla One', sans-serif;
+		color:#fff;
+}
+
+.text-2	{
+		font-size:16px;
+		line-height:30px;
+		font-family: 'Source Sans Pro', sans-serif;
+		color:#333;
+}
+
+
+.text-3	{
+		font-size:15px;
+		line-height:25px;
+		font-family: 'Varela Round', sans-serif;
+		color:#ffc8c8;
+		padding:15px 20px;
+}
+
+
+.button-download	{
+	transition:0.4s;
+}
+.button-download:hover	{
+
+	transform: scale(1.2);
+}
+
+.top-dialer-margin	{
+	margin:15px 0;
+}
+
+.section-bottom	{
+		padding:50px 0;
+		color:#fff;
+		background:#fff;
+}
+.support	{
+		background:#346a1e;
+		min-height:140px;
+}
+
+.support-text	{
+		padding:30px;
+}
+
+.footer	{
+		background:#000;
+		padding:20px 0;
+}
+
+.footer-menu	{
+		color:#6e6e6e;
+		font-family: 'Fjalla One', sans-serif;
+		border:solid #6e6e6e;
+		border-width:0 0 1px 0;
+		padding:8px 0;
+		transition:0.4s;
+}
+.footer-menu:hover	{
+		color:#fff;
+}
+
+.footer-bottom	{
+	border:solid #6e6e6e;
+	border-width:1px 0 0 0;
+	margin-top:25px;
+	text-align:center;
+	padding-top:25px;
+	color:#6e6e6e;
+}
+
+.dialer-section	{
+		background:url(../img/dialer-bg.jpg) fixed repeat-x;
+		min-height:250px;
+		padding:25px 0;
+}
+
+
+.dialer-page-section	{
+		background:#fff;
+		min-height:200px;
+		padding:80px 0;
+}
+
+
+.dialer-space	{
+		margin:20px 0;
+}
+
+.dialer-space-2	{
+		padding:20px 0;
+}
+
+.dialer-button	{
+		height:84px;
+		background:#4a8830;
+		margin-bottom:20px;
+		transition:0.4s;
+		text-decoration:none;
+		border-radius:50px;
+		border:solid 3px #90d474;
+}
+.dialer-button:hover	{
+		background:#57b330;
+}
+
+
+.dialer-icon	{
+		float:left;
+		background:#1e460d;
+		border-radius:50px;
+		border:solid #86bb6f;
+		border-width:0 2px 0 2px;
+		margin:10px 10px;
+}
+
+.dialer-container	{
+		
+}
+
+.dialer-name	{
+	    width:280px;
+		height:25px;
+		padding-top:18px;
+		color:#fff;
+		font-size:20px;
+		text-decoration:none;
+		text-align:left;
+		padding-left:120px;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+.dialer-name-single	{
+		height:30px;
+		padding-top:25px;
+		color:#fff;
+		text-align:left;
+		font-size:20px;
+		padding-left:120px;
+		font-family: 'Fjalla One', sans-serif;
+}
+
+.dialer-opc	{
+		height:8px;
+		color:#cdffb8;
+		padding-top:22px;
+		font-size:15px;
+		text-decoration:none;
+		text-align:left;
+		padding-left:120px;
+}
+
+
+.dialer-section-2	{
+		background:#f8efef;
+		min-height:100px;
+		padding:25px 0;
+		border:solid #d0cdcd;
+		border-width:1px 0 0 0;
+}
+
+.contact-bg	{
+		min-height:650px;
+		background:url(../img/dialer-bg.jpg);
+}
+
+.contact-form-section	{
+	padding:50px 0;
+}
+
+.form-style	{
+		height:40px;
+		border-radius:15px;
+		border:solid 1px #b1e4f4;
+		margin:7px 0;
+		padding:0 25px;
+		color:#164351;
+}
+
+.form-style_aria	{
+		width:250px;
+		min-height:100px;
+		padding:25px;
+		border-radius:15px;
+		border:solid 1px #b1e4f4;
+		margin:7px 0;
+		color:#164351;
+}
+
+
+
+.dialer-page-margin	{
+		padding:130px 0;
+}
+
+.add-section	{
+		background:#00c6ff;
+		min-height:200px;
+		border:solid #eaeaea;
+		border-width:2px 0 0 0;
+		padding:25px 0;
+}
+
+.add-min	{
+		min-height:160px;
+		padding:0 40px;
+}
+
+.add-sub-title	{
+		font-size:15px;
+		color:#fff;
+		font-family: 'Fjalla One', sans-serif;
+		margin:10px 0;
+}
+
+.scroll	{
+		font-size:20px;
+		color:#fff;
+		font-family: 'Fjalla One', sans-serif;
+		padding:15px 35px;
+}
+
+.thankyou	{
+		min-height:500px;
+		padding-top:100px;
+		font-size:35px;
+		font-weight:bold;
+		color:#136711;
+}
+
+
+.contact	{
+		background:#F3F3F3;
+		min-height:300px;
+		padding:50px 0;
+		color:#2a842e;
+}
+
+.contact-form	{
+		background:#fff;
+		border:solid 1px #d1d1d1;
+		height:30px;
+		padding:0 10px;
+		color:#333;
+		border-radius:5px;
+}
+
+.contact-text	{
+		background:#fff;
+		border:solid 1px #d1d1d1;
+		height:100px;
+		padding:10px;
+		color:#fff;
+		border-radius:5px;
+}
+
+.dwaraka_add	{
+		background:#f7f5f0;
+}
+
+.section-login-app	{
+		min-height:50px;
+		background:url(../img/wel-bg.png);
+		border-radius:15px;
+		padding:15px 0 5px 0;
+		margin:15px 0;
+}
+
+
+.login-section	{
+		min-height:100px;
+		background:url(../img/login-bg.jpg);
+		padding:35px 0;
+}
+
+.login-head	{
+		font-family: 'Fjalla One', sans-serif;
+		font-size:27px;
+		text-align:center;
+}
+
+.user-form-1	{
+		background:#fff;
+		border:solid 1px #c7c7c7;
+		min-height:35px;
+		width:98%;
+		color:#333;
+		padding:0 10px;
+		margin:7px 0;
+		border-radius:5px;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+.user-form-button	{
+		background:#64a956;
+		border:solid 1px #c7c7c7;
+		min-height:35px;
+		width:100%;
+		color:#fff;
+		padding:0 10px;
+		margin:7px 0;
+		border-radius:5px;
+}
+
+
+
